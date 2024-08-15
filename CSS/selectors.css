@@ -1,0 +1,126 @@
+/* Simple selectors:- */
+
+/* id selector:- */
+/* #para{
+    background-color: bisque;
+    color: blue;
+}
+
+/* class selector:- */
+/* .main{
+    background-color: aquamarine;
+} */
+
+/* tagname selector:- */
+/* h1{
+    background-color: aqua;
+}  */
+
+/* grouping selector:- */
+/* p,div,h1{
+    background-color: beige;
+} */
+
+/* universal selector:- */
+/* 
+*{
+    background-color: bisque;
+} */
+
+
+
+/* Combinator selectors:- */
+
+/* desendant selector */
+ /* div p{
+    background-color: aquamarine;
+}  */
+
+/* child selector */
+/* div>p{
+    background-color: aqua;
+}  */
+
+/* adjacent selector */
+/* div+p{
+    background-color: aquamarine;
+} */
+
+/* general sibling selector */
+/* div~p{
+    background-color: aquamarine;
+} */
+
+
+
+/* Pseudo element selectors:- */
+/* p::first-letter{
+font-size: 40px;
+} */
+
+/* p::first-line{
+    background-color: blanchedalmond;
+} */
+/* p::before{
+content: 'Good afternoon ';
+} */
+ /* P::after{
+    content: 'have a great day';
+ } */
+
+ /* p::selection{
+    background-color: bisque;
+    color: blue;
+ } */
+
+  /* li::marker{
+    color: #003c8b;
+ }  */
+
+ /* li{
+    background-color: #c9adad;
+    color: #155f91;
+ } */
+
+
+ /* Pseudo Class Selector:- */
+ /* a:visited{
+    color: rgb(236, 151, 46);
+ }
+
+ a:link{
+    color: blueviolet;
+ }
+
+ a:active{
+    color: aqua;
+ }
+
+ #container{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+ }
+
+ #container:hover{
+    background-color: aqua;
+ }
+
+ p:first-child{
+    background-color: aqua;
+ }
+ p:last-child{
+    background-color: blue;
+ }
+ p:nth-child(3){
+    background-color: rgb(51, 133, 105);
+ } */
+
+
+ /* Attribute Selector:- */
+ a[target]{
+    background-color: aquamarine;
+ }
+ a[target="_self"]{
+    background-color: blanchedalmond;
+ }

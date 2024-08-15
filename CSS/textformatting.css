@@ -1,0 +1,59 @@
+ div{
+    height: 700px;
+    width: 700px;
+    background-color: bisque;
+    color: rgb(255, 255, 255);
+    /* border-radius: 50%;  */
+    border-radius: 20px; 
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 70px; */
+
+    font-size: 20px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+
+    /* 5-values: x-axis, y-axis, blurness, spread radius, color of the shadow */
+    box-shadow: 30px 40px 20px 4px rgb(130, 130, 145);
+
+    /* 4-values: x-axis, y-axis, blurness, color of the shadow */
+    text-shadow: 2px 3px 5px black;
+ 
+    
+    /* line-through, overline, underline, none */
+    text-decoration: underline;
+    /* default color is the text color */
+    text-decoration-color: blue;
+    /* default style: solid */
+    text-decoration-style: wavy;
+    /* default thickness: 2px */
+    text-decoration-thickness: 5px;  
+
+    /* decoration, (optional)thickness, (optional)style, (optional)color*/
+    /* text-decoration: underline 6px dotted blue; */
+
+    text-transform: capitalize;
+    text-align: center;
+    /* display: inline; */
+    /* background-image: url(../HTML/images/uwp4427072.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+} 
+section{
+    height: 2000px;
+    width: 100%;
+    /* background-image: url(../HTML/images/uwp4427072.webp);
+    background-position: center; */
+    background-image: url(https://img.freepik.com/free-photo/cute-domestic-kitten-sits-window-staring-outside-generative-ai_188544-12519.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

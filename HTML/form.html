@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+<body>
+    <h1 style="text-align: center;">FORM CREATION</h1>
+    <form action="">
+        <fieldset>
+            <legend style="font-size: 25px;">JOB APPLICATION FORM</legend>
+        <label for="user">UserName: </label>
+        <input type="text" id="user" name="user" size="40" required placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email Id: </label>
+        <input type="email" id="email" name="email" autofocus readonly value="abc@gmail.com">
+        <br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="mobile" maxlength="10" minlength="10" placeholder="Enter mobile number">
+        <br><br>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" disabled>
+        <br><br>
+        <label for="dob">DOB: </label>
+        <!-- Date: date,datetime,datetime-local -->
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <br><br>
+
+        <label for="qualification">Qualification: </label>
+        <select name="Education" id="qualification">
+            <optgroup label="BTECH">
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="civil">CIVIL</option>
+            </optgroup>
+
+            <optgroup label="MTECH">
+                <option value="ISE">ISE</option>
+                <option value="CSE">CSE</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <!-- for value should be same as id value -->
+        <label for="skill">Skills: </label>
+        <!-- when Skills=on is showing in the url value attribute should be added -->
+        <input type="checkbox" id="skill" name="Skills" value="html">HTML
+        <input type="checkbox" id="skill" name="Skills" value="css">CSS
+        <input type="checkbox" id="skill" name="Skills" value="js">JS
+        <br><br>
+
+        <label for="resume">Resume: </label>
+        <input type="file" id="resume" name="Resume">
+        <br><br>
+
+        <label for="add">Address: </label>
+        <!-- textarea tag is used to get more space -->
+        <textarea name="Address" id="add" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="hidden" id="pass" name="Password" value="abc123">
+        <br><br>
+
+        <button>Submit</button>
+        <!-- <input type="submit"> -->
+        <input type="reset">
+    </fieldset>
+    </form>
+
+</body>
+</html>
+
+

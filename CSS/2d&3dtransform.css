@@ -1,0 +1,39 @@
+#main{
+height: 300px;
+width: 200px;
+background-color: rgb(155, 155, 206);
+position: relative;
+left: 200px;
+top: 400px;
+
+ /* 2d properties:- */
+
+/*transform: translate(40px,60px);
+  transform: translateX(30px); 
+  transform: translateY(50px); */
+
+/*positive value=cloclwise
+  negative value=anticlockwise 
+  transform: rotate(-45deg);*/
+
+
+
+/* transform: scale(2,3); 
+   transform: scaleX(2);
+   transform: scale(3); 
+   transform: scale(0.8,0.3); */
+
+/* transform: skew(30deg,45deg); 
+   transform: skew(30deg,45deg);
+   transform: skewX(20deg);
+   transform: skewY(30deg);*/
+
+   /* scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY() */
+   /* transform: matrix(2,0.2,0.5,1,0,0); */
+
+
+   /* transform: rotateX(200deg); 
+      transform: rotateY(150deg); 
+      transform: rotateZ(-120deg);  */
+
+}   

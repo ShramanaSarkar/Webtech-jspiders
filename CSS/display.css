@@ -1,0 +1,71 @@
+/* div{
+    background-color: blanchedalmond;
+    Converting block to inline level elemennt: it will take only the content width 
+    display: inline;
+}
+span{
+    background-color: aqua;
+     Converting inline to block level element 
+    display: block;
+}
+b{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(233, 167, 205);
+    display: inline-block;
+}
+p{
+    background-color: rgb(219, 153, 73);
+     display: inline; 
+    display: none;
+} */
+
+#main-container{
+    height: 400px;
+    width: 500px;
+    background-color: bisque;
+      display: flex;
+
+     /* x axis: space-around,space-between,space-evenly,center,right,left */
+     /* justify-content: center;
+     justify-content: space-around; */
+
+     /* y axis: flex-start, flex-end, center */
+     /* align-items: flex-end;
+
+     gap: 20px; */
+
+     /* flex-direction: column-reverse; 
+     flex-direction: row-reverse;*/
+     
+    /* display: grid; */
+
+    flex-wrap: wrap-reverse;
+    
+}
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(127, 251, 255);
+}
+.div2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(65, 104, 177);
+}
+.div3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(236, 255, 127);
+}
+.div4{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 127, 191);
+}
+.div5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(138, 114, 206);
+}
+

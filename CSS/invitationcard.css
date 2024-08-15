@@ -1,0 +1,26 @@
+div{
+    height: 700px;
+    width: 500px;
+    border: 5px solid;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-image: url(../HTML/images/flower-4931280_1280.webp);
+
+}
+div>section{
+    text-align: left;
+    box-shadow: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+h1{
+    text-decoration: underline;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10px 20px 20px 4px rgb(130, 130, 145);
+}
+

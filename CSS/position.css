@@ -1,0 +1,54 @@
+/*#main{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: relative;
+    z-index: 1; 
+}
+.div2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(158, 43, 114);
+    position: relative(used to move the elements from the current position)
+    position: relative;
+    left: 25px; 
+    top: 20px;
+    right: 20px;
+    position: absolute(used to move the element according to the parent container);
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    Default for position : static  
+
+}
+*/
+
+/* div{
+    height: 1000px;
+    background-color: aquamarine;
+}
+h2{
+    background-color: bisque;
+    position: fixed;
+    top: 50px;
+} */
+
+.box1{
+    height: 500px;
+    background-color: #8a5a5a;
+}
+.box2{
+    height: 100px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 100px;
+}
+.box3{
+    height: 1000px;
+    background-color: rgb(194, 123, 36);
+}
