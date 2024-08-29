@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+#left-container{
+    height: 100px;
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black;  */
+    justify-content: space-around;
+    font-size: 1em;
+    font-family: NotoSansRegular, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #1b1223;
+    /* padding: 10px; */
+}
+
+#right-container{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black;  */
+    justify-content: right;
+    gap: 10px;
+    padding-right: 10px;
+    /* font-size: 1em; */
+    font-family: NotoSansRegular, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #1b1223;
+    /* padding: 10px; */
+}
+
+.search{
+    display: flex;
+    border: 2px solid black;
+    font-size: 13px;
+    font-family: NotoSansRegular, sans-serif;
+    font-weight: 100;
+    color: #ffffff89;
+    padding: 10px 55px 10px 10px;
+    border-radius: 10px;
+    border-color: #ffffff89;
+}
+.lang{
+    padding: 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #301f3ee6;
+    border: 0px;
+    /* box-shadow: 3px 5px 7px  3px #413d449e; */
+;
+    
+    
+}
+.lg{
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1b1223;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.bp{
+    height: 40px;
+    width: 120px;
+    padding: 5px; 
+    align-items: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #8230c6;
+    background-color: #8230c6;
+    color: #ffffff;
+}
+.menu{
+    padding: 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #301f3ee6;
+    border: 0px;
+    font-size: 20px;
+}

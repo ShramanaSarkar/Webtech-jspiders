@@ -1,0 +1,26 @@
+body{
+    /* background: linear-gradient(750deg, blue, purple, magenta, bisque); 
+    background: linear-gradient(to bottom, blue, purple, magenta, bisque); 
+    */
+    background-color: rgb(224, 202, 172);
+}
+.container{
+    /* background-color: rgb(204, 204, 231); */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30PX;
+}
+/* @media screen and (min-width: 500px) and (max-width: 700px)
+{
+    body{
+        background-color: blueviolet;
+    }
+} */
+@media all and (min-width: 500px) and (max-width: 700px)
+{
+    body{
+        background-color: blueviolet;
+    }
+}

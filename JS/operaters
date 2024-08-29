@@ -1,0 +1,13 @@
+
+//print 1to10 using for loop, while loop. do-while loop
+class A{
+int a=10, 20;
+
+
+public static void main(String[]args){
+
+}
+}
+
+
+

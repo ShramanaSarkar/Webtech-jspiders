@@ -1,0 +1,25 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: bisque;
+    /* transition-property: width, height;
+    transition-duration: 3s; */
+    /* transition-delay: 2s; */
+    /* position: relative;
+    left: 500px; */
+
+    /* linear: same speed
+       ease: slow start, middle fast, slow end 
+       ease-in: slow start
+       ease-out: slow end
+       ease-in-out: slow start, slow end*/
+    /* transition-timing-function: linear; */
+
+    /* transition-property, transition-duration, transition-delay, transition-timing-function*/
+    transition: width 3s 2s linear;
+    
+}
+#container:hover{
+    width: 500px;
+    /* height: 120px; */
+}

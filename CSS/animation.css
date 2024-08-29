@@ -1,0 +1,53 @@
+#main{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: bisque;
+
+    animation-name: example;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+    /* animation: animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction */
+}
+@keyframes example {
+    /* from{
+        background-color: blue;
+    }
+    to{
+        background-color: blueviolet;
+    } */
+     0%{
+        background-color: rgb(235, 178, 92);
+        left: 0px;
+        top: 0px;
+
+     }
+     25%{
+        background-color: rgb(193, 125, 196);
+        left: 450px;
+        top: 0px;
+        transform: rotate(45deg);
+     }
+     50%{
+        background-color: rgb(129, 58, 177);
+        left: 450px;
+        top: 450px;
+        transform: rotate(135deg);
+     }
+     75%{
+        background-color: rgb(43, 46, 226);
+        left: 0px;
+        top: 450px;
+        transform: rotate(225deg);
+     }
+     100%{
+        background-color: rgb(11, 68, 90);
+        left: 0px;
+        top: 0px;
+        transform: rotate(315deg);
+     }
+}
