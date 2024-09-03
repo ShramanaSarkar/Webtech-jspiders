@@ -105,3 +105,39 @@ console.log(z3.splice(1,1,100,99,98));
 console.log(z3);
 
 //imp question: diff. bt. slice and splice method?????
+
+//!1. How to find biggest element in an array.//sort().pop()
+var x7=[50,21,7,86,25,76];
+let maxnum=x7[0];
+for(var i=1;i<x7.length;i++){
+    if(x7[i]>maxnum){
+        maxnum=x7[i];
+    }
+}
+console.log(maxnum);
+
+//!2. How to find least element in an array.//sort().shift()
+var x7=[50,21,7,86,25,76];
+let minnum=x7[0];
+for(var i=1;i<x7.length;i++){
+    if(x7[i]<minnum){
+        minnum=x7[i];
+    }
+}
+console.log(minnum);
+//!3. How to arrange the elements in decending form.//sort().reverse()
+var x7=[50,21,7,86,25,76];
+x7.sort(function(a, b) {
+    return b - a;
+});
+
+console.log(x7);
+
+// console.log(x7.sort());
+// console.log(x7.reverse());
+
+
+//!4. How to find the biggest element in an array without altering the existing array.//sort(),slice()
+//!5. How to find the least element in an array without altering the existing array.sort(),slice()
+
+var x7=[50,21,7,86,25,76]
