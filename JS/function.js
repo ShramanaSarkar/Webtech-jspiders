@@ -84,6 +84,18 @@ var x=task(function() {
 console.log(x());
 
 
+// function greet(name, callback) {
+//     console.log(`Hello, ${name}!`);
+//     callback();
+//   }
+  
+//   function sayGoodbye() {
+//     console.log("Goodbye!");
+//   }
+  
+//   greet("Alice", sayGoodbye);
+
+
 // 6. arrow function
 //syntax-var x=()=>{//statements}
 var x=()=>{console.log("Hello People");

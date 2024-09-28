@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventpropagation in js</title>
+</head>
+<body>
+    <!-- <div id="parent">
+        <button id="child">button</button>
+    </div> -->
+    <div style="background-color: bisque; height: 200px; width: 200px;" onclick="demo2()">
+        parent
+        <div style="background-color: rgb(0, 38, 255); height: 100px; width: 100px;" onclick="demo1()">child</div>
+    </div>
+    <input type="checkbox" id="input">
+
+    <script src="./eventpropagation.js"></script>
+</body>
+</html>

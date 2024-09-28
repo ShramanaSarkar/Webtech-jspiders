@@ -1,5 +1,6 @@
 
 //Types to create an object:-----
+// window is the supermost and global object in js
 //1. object literal way
 
 // syntax-var objName={

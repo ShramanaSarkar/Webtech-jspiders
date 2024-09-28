@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise in js</title>
+</head>
+<body>
+    
+
+    <script>
+        //promise states:--
+        //fulfilled, reject, pending
+        let x=new Promise(function(success,error) {
+            let data=true;
+            if(data){
+                success("promise done")
+            }else{
+                error("promise not dont")
+            }
+        })
+        console.log(x);
+
+        // x.catch(function (a){
+        //     console.log(a);
+            
+        // })
+        // x.then(function(a) {
+        //     console.log(a);
+            
+        // })
+        // x.finally(function() {
+        //     console.log("finally block executed ");
+            
+        // })
+
+        async function demo() {
+           let x= await 20+30
+           return x 
+        }
+        var res= demo()
+        console.log(res);//promise
+        res.then(function (x) {
+            console.log(x);
+            
+        })
+
+    </script>
+</body>
+</html>

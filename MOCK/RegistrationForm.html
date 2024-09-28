@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rgistration Form</title>
+</head>
+<body>
+    
+    <form action="" >
+        <fieldset style="width: max-content; background-color: rgb(233, 233, 232); border-radius: 20px; ">
+            <h1 style="text-align: center;"> <u>Course Registration Form</u> </h1>
+        <label for="user">First Name </label>
+        <input type="text" id="user" name="user" size="40" required placeholder="Enter your first name">
+        <br><br>
+        <label for="user">Middle Name </label>
+        <input type="text" id="user" name="user" size="38" required placeholder="Enter your middle name">
+        <br><br>
+        <label for="user">Last Name </label>
+        <input type="text" id="user" name="user" size="41" required placeholder="Enter your last name">
+        <br><br>
+        <label for="email">Email Id </label>
+        <input type="email" id="email" name="email" size="43" readonly value="abc@gmail.com">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="text" id="pass" name="Password" size="42" placeholder="Give a strong password">
+        <br><br>
+        <label for="phone">Phone Number </label>
+        <input type="tel" id="phone" name="mobile" size="37" maxlength="10" minlength="10" placeholder="Enter mobile number">
+        <br><br>
+        <label for="add">Address: </label>
+        <textarea name="Address" id="add" cols="42" rows="5"></textarea>
+        <br><br>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" disabled>
+        <label for="dob">DOB: </label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <br><br>
+
+        <label for="qualification">Qualification: </label>
+        <select name="Education" id="qualification">
+                <option value="BTECH">BTECH</option>
+                <option value="MTECH">MTECH</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="BCS">BCS</option>
+                <option value="BCOM">BCOM</option>
+                <option value="OTHER">OTHER</option>
+        </select>
+
+        <label for="qualification">Course: </label>
+        <select name="Education" id="qualification">
+    
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Mern">Mern</option>
+            
+
+            
+                <option value="JavaSelenium">Java Selenium</option>
+                <option value="Devops">Devops</option>
+            
+        </select>
+        <br><br>
+       
+        <label for="skill">Preferable Time : </label>
+     
+        <input type="checkbox" id="skill" name="Skills" value="html">Morning Batch
+        <input type="checkbox" id="skill" name="Skills" value="css">Evening Batch
+        <input type="checkbox" id="skill" name="Skills" value="js">Both
+        <br><br>
+
+        <label for="resume">Resume: </label>
+        <input type="file" id="resume" name="Resume">
+        <br><br>
+
+        <div style="text-align: center;">
+            <button>Submit</button>
+            <input type="reset">
+        </div>
+        
+    </fieldset>
+    </form>
+</body>
+</html>

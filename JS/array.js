@@ -52,7 +52,11 @@ var x=[4,5,6,7]
 console.log(x.pop());
 console.log(x);
 
-//shift()- reverse the given order of element
+//!shift():-removes the first item of an array.
+var x=[20,21,30,31]
+console.log(x.shift());
+
+//reverse()- reverse the given order of element
 var x=[12,13,14,15]
 console.log(x.reverse());
 
